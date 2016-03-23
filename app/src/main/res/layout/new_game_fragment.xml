@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal" >
+
+    <EditText
+        android:id="@+id/edittext"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter player name..."
+        android:typeface="normal"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/additem"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:text="Add player to game"
+        android:shadowColor="#a4a3a3"
+        android:clickable="true"
+        android:elegantTextHeight="true"/>
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="210dp"
+        android:layout_height="200dp"
+        android:divider="@null"
+        android:dividerHeight="-30sp"
+        android:background="#ffffffff"/>
+
+    <Button
+        android:id="@+id/startgame"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:text="START NEW GAME"
+        android:shadowColor="#a4a3a3"
+        android:clickable="true"
+        android:elegantTextHeight="true"/>
+
+</LinearLayout>

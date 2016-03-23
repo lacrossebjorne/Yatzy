@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_newGame"
+            android:icon="@drawable/ic_menu_die1"
+            android:title="Play Game" />
+        <item
+            android:id="@+id/nav_Highscores"
+            android:icon="@drawable/ic_menu_die2"
+            android:title="Highscores" />
+        <item
+            android:id="@+id/nav_PlayerStats"
+            android:icon="@drawable/ic_menu_die3"
+            android:title="Player Stats" />
+        <item
+            android:id="@+id/nav_GameStats"
+            android:icon="@drawable/ic_menu_die4"
+            android:title="Game Stats" />
+    </group>
+</menu>
